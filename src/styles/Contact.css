@@ -1,0 +1,54 @@
+.grid-container-2 {
+    padding: 33px;
+    color: #333461;
+    position: left;
+}
+
+img.image-3,
+h5.c-title,
+p.c-text {
+    display: block;
+    padding: 5px;
+}
+
+.contact-container {
+    padding: 80px 35px;
+}
+
+p.contact-text {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #20ad96;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+p.contact-info {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4a556c;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.w-layout-grid,
+.cta-component,
+.contact-us {
+    padding-top: 77px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .grid-container,
+    .enquiry-form-wrapper {
+        width: 100%;
+    }
+
+    .w-layout-grid,
+    .cta-component,
+    .contact-us {
+        padding-top: 30px;
+    }
+}

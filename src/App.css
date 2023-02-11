@@ -1,0 +1,324 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
+
+body {
+    background-color: #f6f6f6;
+    height: 100%;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.start {
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    word-spacing: 8px;
+    position: fixed;
+    top: 0px;
+    right: 40px;
+}
+
+nav {
+    padding: 0px 13px;
+    align-self: auto;
+    justify-content: space-around;
+    display: flex;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    position: fixed;
+    border-radius: 1rem;
+}
+
+h5 {
+    padding-top: 15px;
+    margin-right: 12px;
+}
+
+.background-image {
+    background-image:
+        url("images/background.jpg");
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-image: linear-gradient(to bottom,
+            rgb(252, 252, 252),
+            rgba(174, 202, 167, 0.952));
+    padding: 35px;
+    color: #4a556c;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    max-width: 35%;
+    max-height: 50%;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+
+h1.large-title {
+    font-size: 1.5vw;
+    color: #4a556c;
+}
+
+
+h1.large-title:hover {
+    color: #20ad3f;
+}
+
+h2.small-title {
+    font-size: 1vw;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #4a556c;
+}
+
+.change {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.repair-serives h2,
+h2.garantee-title {
+    text-align: center;
+    color: rgba(95, 163, 55, 0.911);
+    text-transform: uppercase;
+    margin: 8px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.repair-serives h3 {
+    text-align: center;
+    color: #333461;
+    margin: 8px;
+    font-weight: 700;
+    word-spacing: 7px;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 80px;
+    color: #333461;
+    grid-row-gap: 44px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 44px;
+    grid-template-rows: auto;
+}
+
+.grid-item {
+    font-size: 30px;
+    max-width: 100%;
+    align-items: center;
+}
+
+button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(95, 163, 55, 0.911);
+    font-size: 0.9vw;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #20ad3f;
+}
+
+.link {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #333461;
+    font-weight: 500;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.link:hover {
+    color: #20ad3f;
+}
+
+ul {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+h3.county-title {
+    text-decoration: underline;
+    color: #333461;
+}
+
+.first-column {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.second-column {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.list-item-3 {
+    background-position: 37% 50%;
+}
+
+.service-area,
+h3.heading-title {
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .88), hsla(0, 0%, 100%, .88)), url('./images/appliance.jpg');
+    background-position: 0 0, 50% 50%;
+    background-size: auto, cover;
+    border-radius: 1rem;
+}
+
+h3.heading-title {
+    text-align: center;
+    word-spacing: 7px;
+    color: rgba(95, 163, 55, 0.911);
+    margin: 8px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+span {
+    color: #333461;
+    font-weight: 700;
+    word-spacing: 7px;
+    font-size: 28px;
+}
+
+
+p.brands-list {
+    max-width: 50%;
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 90px;
+    text-align: center;
+    align-items: center;
+    padding-left: 24px;
+    justify-content: space-between;
+}
+
+
+ul.brands-home {
+    padding-top: 20px;
+    grid-column-gap: 41px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+.brand-item {
+    background-position: 40% 50%;
+
+}
+
+.repairman {
+    max-width: 32%;
+    border-radius: 1rem;
+    position: relative;
+    border: 0.5px solid #d1cccc9a;
+}
+
+.info-toprow {
+    padding: 65px;
+    float: left;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom,
+            #f6f6f6,
+            rgba(130, 136, 129, 0.466));
+    grid-column-gap: 100px;
+}
+
+.sat-info {
+    float: right;
+}
+
+
+img.gar_icon {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.city-contains {
+    padding: 65px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 300%;
+        font-size: 2vw;
+        left: auto;
+    }
+
+    h1.large-title {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    .start {
+        visibility: hidden;
+    }
+
+    p.brands-list {
+        font-size: 17px;
+        padding-left: 24px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .repairman {
+        max-width: 100%;
+    }
+
+    .brand-item {
+        background-position: 5% 50%;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    .list-item-3 {
+        background-position: 18% 50%;
+    }
+
+}
