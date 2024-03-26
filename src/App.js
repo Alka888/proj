@@ -12,7 +12,7 @@ function App() {
       <Router>
         <div className='start'>
           <img src="https://uploads-ssl.webflow.com/622b5f32e69caa8dd1db5ef6/624caa2018c7408693c5a542_phone-number-icon.svg" loading="lazy" width="35" alt="phone icon" className="image-7" />
-          <h5>(646) 575 8297</h5>
+          <h5>(773) 270 2777</h5>
           <a href="/contact">
             <button>Schedule Service</button>
           </a>
