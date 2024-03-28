@@ -2,6 +2,8 @@ import './styles/Contact.css'
 import React, { FormEvent, useState, useRef } from 'react';
 import axios from 'axios';
 import ReCAPTCHA from "react-google-recaptcha";
+import './api/contact.ts'
+
 
 function Contact() {
     const formId = 'uitzl5GUM';
@@ -36,6 +38,7 @@ function Contact() {
 
         try {
             const res= await fetch('/api/contact',  {
+                method: 'POST',
                 body: JSON.stringify({
                     name, email, phone,zipcode, message,
                 }),
