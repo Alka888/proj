@@ -40,10 +40,10 @@ function Contact() {
             const res= await fetch('/api/contact',  {
                 method: 'POST',
                 body: JSON.stringify({
-                    name, email, phone,zipcode, message,
+                    name, email, phone, zipcode, message,
                 }),
                 headers: {
-                    'contnt-type': 'application/json',
+                    'content-type': 'application/json',
                 },
             })
         }  catch(err) {
