@@ -1,11 +1,11 @@
 import './styles/Contact.css'
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 // import ReCAPTCHA from "react-google-recaptcha";
 import { useFormspark } from "@formspark/use-formspark";
 
 
 const FORMSPARK_FORM_ID = 'uitzl5GUM';
-const FORMSPARK_ACTION_URL = `https://submit-form.com/${FORMSPARK_FORM_ID}`;
+// const FORMSPARK_ACTION_URL = `https://submit-form.com/${FORMSPARK_FORM_ID}`;
 
 function Contact() {
     const [submit, submitting] = useFormspark({
@@ -15,7 +15,7 @@ function Contact() {
     // const recaptchKey = '6LfhQlApAAAAAIkPHYYNbOIsa512Tfa2Yzmp5mV8';
     // const recaptchRef = useRef();
 
-    const [recaptchToken, setRecaptchToken] = useState();
+    // const [recaptchToken, setRecaptchToken] = useState();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone]= useState('')
