@@ -45,7 +45,10 @@ p.contact-info {
     .enquiry-form-wrapper {
         width: 100%;
     }
-
+    
+    button {
+        font-size: 3vw;
+    }
     .w-layout-grid,
     .cta-component,
     .contact-us {

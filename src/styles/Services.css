@@ -78,6 +78,10 @@ p.service-title {
         font-size: 10px;
     }
 
+    a.link {
+        justify-content:flex-start;
+    }
+
     h1.service-title,
     h2.service-title,
     h3.service-title,

@@ -144,7 +144,7 @@ function Home() {
             <div className='city-contains'>
                 <h3 className='city-header'>Frequently Asked Questions</h3>
                 <h5>What is your service call fee?</h5>
-                <p>The diagnostic and professional estimates are just $75 service fee. The first visit includes: visit of a qualified technician, full inspection and a diagnostic, the professional estimate, the best solution and advice.</p>
+                <p>The diagnostic and professional estimates are just $69 service fee. The first visit includes: visit of a qualified technician, full inspection and a diagnostic, the professional estimate, the best solution and advice.</p>
                 <h5>Will the service fee be waived if I decide to repair?</h5>
                 <p>Yes. The service fee applies to the total cost of repair. Meaning, when the diagnostic is complete and the issue is known, our technician will give you a quote for the repair, including labor and parts. If you decide to complete the repair with our company, we will waive the service fee. Therefore, you will only pay for the repair.</p>
                 <h5>How are the prices for labor & parts determined?</h5>
