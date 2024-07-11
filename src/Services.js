@@ -4,33 +4,34 @@ import './styles/Services.css'
 
 function Services() {
 
-    const [service, setService] = useState(0);
-    const { id, name, description, image } = data[service];
-    const [showMore, setShowMore] = useState(false);
+    // const [service, setService] = useState(0);
+    // const { id, name, description, image } = data[service];
+    // const [showMore, setShowMore] = useState(false);
+    const [ picture, setPicture] = useState(data)
 
-    const previousService = () => {
-        setService((service => {
-            service--;
-            if (service < 0) {
-                return data.length - 1;
-            }
-            return service;
-        }))
-    }
+    // const previousService = () => {
+    //     setService((service => {
+    //         service--;
+    //         if (service < 0) {
+    //             return data.length - 1;
+    //         }
+    //         return service;
+    //     }))
+    // }
 
-    const nextService = () => {
-        setService((service => {
-            service++;
-            if (service > data.length - 1) {
-                service = 0;
-            }
-            return service;
-        }))
-    }
+    // const nextService = () => {
+    //     setService((service => {
+    //         service++;
+    //         if (service > data.length - 1) {
+    //             service = 0;
+    //         }
+    //         return service;
+    //     }))
+    // }
 
     return (
         <div>
-            <div className='service-container'>
+            {/* <div className='service-container'>
                 <img src={image} className="services-image" alt="service" />
             </div>
             <div className='service-container'>
@@ -46,6 +47,31 @@ function Services() {
             <div className='btn service-container'>
                 <button onClick={previousService}>Previous</button>
                 <button onClick={nextService}>Next</button>
+            </div> */}
+
+            <div>
+                <br />
+                <div>
+                    <h1 className='service'>Services</h1>
+                    <h4>Warranty of 30 days parts and labor</h4>
+                </div>
+                {picture.map((item => {
+                    const{id, name, description, image } = item;
+                    return(
+                        <div key= {id}> 
+                            <div className='picture-container'> 
+                                <h1>{name}</h1>
+                            </div>
+                            <div className='picture-container-img'>
+                                <img src={image}  width="700px" alt="techniciant"/>
+                            </div>
+                            <div className='picture-container'> 
+                                <p className='serv-p'>{description}</p>
+                            </div>
+                        </div>
+                    )
+                }))}
+
             </div>
 
             <div>

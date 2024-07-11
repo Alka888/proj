@@ -6,9 +6,11 @@ function Home() {
         <div>
             <div className="background-image ">
                 <div className="container">
-                    <h1 className="large-title">AT Appliance Repair and Maintenance LLC</h1>
+                    <h1 className="large-title">AT Appliance Repair and Maintenance</h1>
                     <p className="small-title">
-                        If you are looking for <strong>dependable appliance specialists</strong> to take care of your kitchen & laundry appliances, look no further than AT Appliance Maintenance and Repair LLC
+                    Is a family-owned business, we specialize in repairing household appliances and HVAC systems.
+                    At AT Appliance Repair and Maintenance, we want to help take that stress away by being your dependable partner. Our goal is to provide you with respectful, expert repair services tailored to your needs.
+                    Choose AT Appliance Repair and Maintenance for safe and professional appliance repairs.
                         <br />
                         <a href="/contact">
                             <button>Schedule Service</button>
@@ -144,7 +146,7 @@ function Home() {
             <div className='city-contains'>
                 <h3 className='city-header'>Frequently Asked Questions</h3>
                 <h5>What is your service call fee?</h5>
-                <p>The diagnostic and professional estimates are just $69 service fee. The first visit includes: visit of a qualified technician, full inspection and a diagnostic, the professional estimate, the best solution and advice.</p>
+                <p>The diagnostic and professional estimates are just $79 service fee. The first visit includes: visit of a qualified technician, full inspection and a diagnostic, the professional estimate, the best solution and advice.</p>
                 <h5>Will the service fee be waived if I decide to repair?</h5>
                 <p>Yes. The service fee applies to the total cost of repair. Meaning, when the diagnostic is complete and the issue is known, our technician will give you a quote for the repair, including labor and parts. If you decide to complete the repair with our company, we will waive the service fee. Therefore, you will only pay for the repair.</p>
                 <h5>How are the prices for labor & parts determined?</h5>

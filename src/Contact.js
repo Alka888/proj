@@ -49,36 +49,31 @@ function Contact() {
 
     return (
         <div>
+            <div >
+            <h1 className='contact-greeting'>Get in Touch</h1>
+            </div>
+                
             <div className='w-layout-grid cta-component contact-us'>
                 <div className="grid-container-2">
-                    <h1>Contact Us</h1>
-                    <p className='contact-text'>Schedule Your Service</p>
-                    <p className='contact-info'>If you are looking to <strong>schedule an appointment</strong>, or simply want to ask a question, fill out the contact form and one of our cutomer representatives will reach out to you in 5 - 7 minutes during regular hours.</p>
-                    <img src="https://uploads-ssl.webflow.com/622b5f32e69caa8dd1db5ef6/624caa2018c7408693c5a542_phone-number-icon.svg" loading="lazy" alt="" width="45" className="image-3"></img>
-                    <h5 className='c-title'>(773) 270 2777</h5>
-
-                    <img src="https://uploads-ssl.webflow.com/622b5f32e69caa8dd1db5ef6/624caa20f4d69c1d5e5aad97_hours-icon.svg" loading="lazy" width="45" alt="" className="image-3"></img>
-
+                    <p className='contact-text'>Our Location</p>
+                    <p>277 E Alpine Dr, Glendale Heights IL, 60139</p>
+                    <p className='contact-text'>Contact Information</p>
+                    <p className='contact-info'>Please don’t hesitate to contact us about all of your appliance repair needs. We will be happy to schedule a convenient appointment for you and our experienced technician.</p>
+                    <p className='contact-info'><strong>(773) 270 2777</strong></p>
+                    <p><a href="#">altantransit@gmail.com</a></p>
                     <div>
-                        <p className='c-text'>
+                        <p className='contact-text'>Working Hours</p>
+                        <p className='contact-info'>
                             Monday - Sunday:
                             <br />
                             6:00am - 8pm
                         </p>
                     </div>
-
-                    <img src="https://uploads-ssl.webflow.com/622b5f32e69caa8dd1db5ef6/624caa20edcf8687c7648937_email-icon.svg" loading="lazy" width="45" alt="" className="image-3"></img>
-
-                    <a href="#">altantransit@gmail.com</a>
-
-                    <img src="https://uploads-ssl.webflow.com/622b5f32e69caa8dd1db5ef6/624caa200a06fd38d1e77d82_address-icon.svg" loading="lazy" width="45" alt="" className="image-3"></img>
-
-                    <a href="https://goo.gl/maps/tnJfWH1HjvrN4DGs6" target="_blank">277 E Alpine Dr, Glendale Heights, IL 60139, United States</a>
                 </div>
 
                 <div className='enquiry-form-wrapper'>
                     <h2>Talk to an Expert Today!</h2>
-                    <p>Call us at  <strong>(773) 270 2777</strong>, or fill out the form to request a call back. Our customer service agent will reach out in 5-7 min.</p>
+                    <p>Call us at  <strong>(773) 270 2777</strong>, or fill out the form to request a call back. We will reach out in 5-7 min.</p>
 
                     {message && (<div className={`${message.class}`}>
                         {message.text}

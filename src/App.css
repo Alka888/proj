@@ -34,11 +34,11 @@ nav {
     padding: 0px 13px;
     align-self: auto;
     justify-content: space-around;
-    display: flex;
+    /* display: flex; */
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
-    position: fixed;
+    /* position: fixed; */
     border-radius: 1rem;
 }
 
@@ -55,6 +55,7 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 25px;
 }
 
 .container {
@@ -90,6 +91,9 @@ h2.small-title {
     font-family: 'Kumbh Sans', sans-serif;
     color: #4a556c;
 }
+p.small-title {
+    font-size: 0,5vw;
+}
 
 .change {
     background-color: black;
@@ -101,7 +105,7 @@ h2.small-title {
 .repair-serives h2,
 h2.garantee-title {
     text-align: center;
-    color: rgba(95, 163, 55, 0.911);
+    color: #11998e;
     text-transform: uppercase;
     margin: 8px;
     font-size: 18px;
@@ -140,7 +144,7 @@ button {
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
-    background-color: rgba(95, 163, 55, 0.911);
+    background-color: #11998e;
     font-size: 0.9vw;
     font-weight: 400;
     text-align: center;
@@ -206,7 +210,7 @@ h3.heading-title {
 h3.heading-title {
     text-align: center;
     word-spacing: 7px;
-    color: rgba(95, 163, 55, 0.911);
+    color: #11998e;
     margin: 8px;
     font-size: 18px;
     margin: 30px;

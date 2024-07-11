@@ -1,5 +1,5 @@
 .grid-container-2 {
-    padding: 33px;
+    padding: 10px;
     color: #333461;
     position: left;
 }
@@ -26,11 +26,36 @@ p.contact-text {
 
 p.contact-info {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #4a556c;
     font-size: 17px;
     line-height: 28px;
 }
+
+h1.title-contact {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1.contact-greeting {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    letter-spacing: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 5px solid #20ad96;
+    animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+    0% { 
+      width: 0px;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 
 .w-layout-grid,
 .cta-component,
@@ -38,6 +63,10 @@ p.contact-info {
     padding-top: 77px;
 }
 
+.enquiry-form-wrapper {
+    background-color: #d9e3db;
+    border: 1px solid #20ad3f;
+}
 
 @media screen and (max-width: 1200px) {
 

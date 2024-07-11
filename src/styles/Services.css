@@ -8,6 +8,7 @@ body {
     background-color: #f6f6f6;
     border-radius: 1rem;
     font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 70px;
 }
 
 .person {
@@ -29,7 +30,7 @@ button.service-container {
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
-    background-color: rgba(95, 163, 55, 0.911);
+    background-color: #11998e;
     font-size: 0.9vw;
     font-weight: 400;
     text-align: center;
@@ -60,6 +61,10 @@ p.service-text {
     padding: 30px 50px;
 }
 
+p.serv-p {
+    padding: 20px;
+}
+
 h1.service-title,
 h2.service-title,
 h3.service-title,
@@ -67,6 +72,31 @@ p.service-title {
     padding: 20px 20px;
 }
 
+.picture-container, .picture-container-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: linear-gradient(to bottom, #f6f6f6, rgba(130, 136, 129, 0.466));;
+    border-radius: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.picture-container-img:hover { 
+    transform: scale(1.1);
+}
+
+h4 {
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+    color: #11998e;
+}
+h1.service  {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    color: #11998e;
+}
 
 @media screen and (max-width: 1200px) {
     img.services-image {
