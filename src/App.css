@@ -324,4 +324,7 @@ img.gar_icon {
     .list-item-3 {
         background-position: 18% 50%;
     }
+    p.small-title {
+        font-size: 15px;
+    }
 }
