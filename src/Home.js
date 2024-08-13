@@ -8,7 +8,7 @@ function Home() {
                 <div className="container">
                     <h1 className="large-title">AT Appliance Repair and Maintenance</h1>
                     <p className="small-title">
-                    Is a family-owned business, we specialize in repairing household appliances and HVAC systems.
+                    Is a family-owned business, we specialize in repairing household appliances.
                     At AT Appliance Repair and Maintenance, we want to help take that stress away by being your dependable partner. Our goal is to provide you with respectful, expert repair services tailored to your needs.
                     Choose AT Appliance Repair and Maintenance for safe and professional appliance repairs.
                         <br />
