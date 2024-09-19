@@ -68,7 +68,7 @@ h1.contact-greeting {
     border: 1px solid #20ad3f;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
 
     .grid-container,
     .enquiry-form-wrapper {

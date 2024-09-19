@@ -4,34 +4,34 @@ import './styles/Services.css'
 
 function Services() {
 
-    const [service, setService] = useState(0);
-    const { id, name, description, image } = data[service];
-    const [showMore, setShowMore] = useState(false);
+    // const [service, setService] = useState(0);
+    // const { id, name, description, image } = data[service];
+    // const [showMore, setShowMore] = useState(false);
     const [ picture, setPicture] = useState(data)
 
-    const previousService = () => {
-        setService((service => {
-            service--;
-            if (service < 0) {
-                return data.length - 1;
-            }
-            return service;
-        }))
-    }
+    // const previousService = () => {
+    //     setService((service => {
+    //         service--;
+    //         if (service < 0) {
+    //             return data.length - 1;
+    //         }
+    //         return service;
+    //     }))
+    // }
 
-    const nextService = () => {
-        setService((service => {
-            service++;
-            if (service > data.length - 1) {
-                service = 0;
-            }
-            return service;
-        }))
-    }
+    // const nextService = () => {
+    //     setService((service => {
+    //         service++;
+    //         if (service > data.length - 1) {
+    //             service = 0;
+    //         }
+    //         return service;
+    //     }))
+    // }
 
     return (
         <div>
-            <div className='service-container'>
+            {/* <div className='service-container'>
                 <img src={image} className="services-image" alt="service" />
             </div>
             <div className='service-container'>
@@ -47,9 +47,9 @@ function Services() {
             <div className='btn service-container'>
                 <button onClick={previousService}>Previous</button>
                 <button onClick={nextService}>Next</button>
-            </div>
+            </div> */}
 
-            {/* <div>
+            <div>
                 <br />
                 <div>
                     <h1 className='service'>Services</h1>
@@ -72,7 +72,7 @@ function Services() {
                     )
                 }))}
 
-            </div> */}
+            </div>
 
             <div>
                 <h1 className='service-title'>Technicians You Can Rely On</h1>

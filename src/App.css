@@ -284,7 +284,7 @@ img.gar_icon {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
     .container {
         max-width: 100%;
         max-height: 80%;
